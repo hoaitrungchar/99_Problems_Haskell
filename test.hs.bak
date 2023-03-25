@@ -1,8 +1,0 @@
-main :: IO()
-main = do
--- declaring and initializing variables for radius
-   let radius = 4
--- computing the area
-   let perimeter = 2*pi*radius    
-   print ("The perimeter of the circle with radius "++ show radius ++ " is:")
-   print (perimeter)
